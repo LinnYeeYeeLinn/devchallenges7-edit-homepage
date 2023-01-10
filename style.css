@@ -221,7 +221,7 @@ blockquote{
 }
 footer{
     background-color: #100E1D;
-    padding: 3rem 0;
+    padding: 3rem 0 1.5rem 0;
 }
 footer .footer-container{
     justify-content: space-between;
@@ -249,7 +249,11 @@ footer h4{
     width: 20px;
     aspect-ratio: 1/1;
 }
-
+.footer-text{
+    color: var(--white);
+    text-align: center;
+    margin-top: 2.5rem;
+}
 @media screen and (max-width: 1330px) {
     .client-container{
         grid-template-columns: auto;
